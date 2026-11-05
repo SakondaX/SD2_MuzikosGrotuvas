@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "elements": [
+    {
+      "type": "album",
+      "songs": ["../test_music/MAX_album/MAX.mp3"]
+    },
+    {
+      "type": "song",
+      "songs": ["../test_music/Blazin_Beat_Cover.mp3"]
+    },
+    {
+      "type": "song",
+      "songs": ["../test_music/The_Grand_Cathedral.mp3"]
+    }
+  ]
+}
