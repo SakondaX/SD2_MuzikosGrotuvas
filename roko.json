@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "elements": [
+    {
+      "type": "song",
+      "songs": [
+        "The_Grand_Cathedral.mp3"
+      ]
+    },
+    {
+      "type": "song",
+      "songs": [
+        "Blazin_Beat_Cover.mp3"
+      ]
+    },
+    {
+      "type": "album",
+      "songs": [
+        "RoN_Album/Galleons (Rise of Nations OST) - Peaches Lamb.mp3",
+        "RoN_Album/Dark Forest (Rise of Nations OST) - Peaches Lamb.mp3",
+        "RoN_Album/Mist At Dawn (Rise of Nations OST) - Peaches Lamb.mp3",
+        "RoN_Album/Simple Song (Rise of Nations OST) - Peaches Lamb.mp3",
+        "RoN_Album/Sri Lanka (Rise of Nations OST) - Peaches Lamb.mp3",
+        "RoN_Album/Tribes (Rise of Nations OST) - Peaches Lamb.mp3",
+        "RoN_Album/Revolver (Rise of Nations OST) - Peaches Lamb.mp3",
+        "RoN_Album/Brazil (Rise of Nations OST) - Peaches Lamb.mp3"
+      ]
+    }
+  ]
+}
