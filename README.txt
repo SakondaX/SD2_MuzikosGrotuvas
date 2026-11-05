@@ -17,8 +17,9 @@ To build and run:
 1. Download or clone the repository.
 2. Open `MuzikosGrotuvas.sln` in Visual Studio.
 3. Select Release and x64.
+4. Build the solution and run it with Ctrl+F5.
 
-C++17, the Desktop development with C++ workload, and C++ CMake tools for Windows are required. The project selects the v145 platform toolset. The dependency setup script uses Visual Studio 2022 and v143. For a Visual Studio 2022 build, select v143 under the project’s Configuration Properties → General → Platform Toolset.
+C++17, Visual Studio 2022 with the Desktop development with C++ workload, the MSVC v143 x64/x86 build tools, and C++ CMake tools for Windows are required. Both the project and dependency setup script use the v143 platform toolset.
 
 Before compilation, `setup_dependencies.ps1` automatically downloads and builds TagLib and zlib and downloads the nlohmann/json header. Internet access is required during the initial setup.
 
@@ -27,6 +28,8 @@ For a quick test, enter the following in the program, pressing Enter after each 
 14
 test_music/test.json
 1
+
+If test.json is beside MuzikosGrotuvas.sln, enter test.json as the path.
 
 This loads the supplied playlist and displays its songs. To sort the fourth element’s album tracks, enter `9`, followed by `4`. Commands `10`, `11`, and `12` start sequential, random, and shuffle playback respectively. Each asks how many songs to display. Enter `0` to exit.
 
